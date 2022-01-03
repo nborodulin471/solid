@@ -1,4 +1,4 @@
-package Product;
+package product;
 
 public abstract class Gift implements Priceble{
 

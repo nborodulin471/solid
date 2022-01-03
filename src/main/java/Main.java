@@ -1,5 +1,5 @@
-import Product.Gift;
-import Product.Toys;
+import product.Gift;
+import product.Toys;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Main {
     private static final int MAX_SIZE_LIST_PRODUCTS = 3;
 
     public static void main(String[] args) {
-        
+
         Gift[] listProducts = getListProducts(); // принцип избегания магических чисел внутри
         printListProducts("Добро пожаловать в онлайн магазин подарков" +
                 " Вам доступны следующие подарки:", listProducts); // DRY - избегание повторений.

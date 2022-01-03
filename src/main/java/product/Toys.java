@@ -1,4 +1,4 @@
-package Product;
+package product;
 
 public class Toys extends Gift {
     int price;

@@ -1,5 +1,5 @@
 
-import Product.Gift;
+import product.Gift;
 
 import java.util.Random;
 
